@@ -10,7 +10,6 @@ function Footer() {
           <div className="md:mb-0 text-center">
             <Logo />
             <p className='font-normal text-xs mt-[-4px]'>Buenos Aires - Argentina</p>
-            <p className='font-normal text-xs'>Derechos reservados | 2024</p>
           </div>
           <div className="flex flex-col md:flex-row space-x-8">
             <div className='text-right'>
@@ -22,8 +21,10 @@ function Footer() {
                 <li className='pb-2'><Link to='/Contacto' className='font-light hover:text-[#16325B] hover:font-normal'>Posgrados</Link></li>
               </ul>
             </div>
-
           </div>
+        </div>
+        <div>
+          <p className='text-[#313131] text-sm mt-12 font-sans'>By ndev | Derechos reservados</p>
         </div>
       </div>
     </footer>
