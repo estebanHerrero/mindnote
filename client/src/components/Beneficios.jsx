@@ -12,7 +12,7 @@ function Beneficios () {
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
                         <h1 className="text-3xl font-bold text-white">Rendimiento académico</h1>
-                        <p className="text-lg italic text-white mt-16 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Alcanza tus metas académicas con mayor facilidad gracias a nuestras herramientas de planificación y seguimiento.</p>
+                        <p className="text-lg italic text-white mt-16 opacity-0 group-hover:opacity-100 transition-opacity duration-1000">Alcanza tus metas académicas con mayor facilidad gracias a nuestras herramientas de planificación y seguimiento.</p>
                     </div>
                 </div>
                 <div className="group relative items-center justify-center overflow-hidden cursor-pointer">
@@ -22,7 +22,7 @@ function Beneficios () {
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
                         <h1 className="text-3xl font-bold text-white">Reduce la ansiedad</h1>
-                        <p className="text-lg italic text-white mt-16 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Di adiós al estrés de los exámenes. Mindnote te ayuda a mantenerte organizado y al día con tus tareas.</p>
+                        <p className="text-lg italic text-white mt-16 opacity-0 group-hover:opacity-100 transition-opacity duration-1000">Di adiós al estrés de los exámenes. Mindnote te ayuda a mantenerte organizado y al día con tus tareas.</p>
                     </div>
                 </div>
                 <div className="group relative items-center justify-center overflow-hidden cursor-pointer">
@@ -32,7 +32,7 @@ function Beneficios () {
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
                         <h1 className="text-3xl font-bold text-white">Facilita la colaboración</h1>
-                        <p className="text-lg italic text-white mt-24 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Trabaja en equipo con tus compañeros y comparte tus notas y tareas.</p>
+                        <p className="text-lg italic text-white mt-24 opacity-0 group-hover:opacity-100 transition-opacity duration-1000">Trabaja en equipo con tus compañeros y comparte tus notas y tareas.</p>
                     </div>
                 </div>
             </div>

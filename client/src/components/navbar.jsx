@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <nav>
       <ul className="flex space-x-4 text-[#333333] gap-8">
-        <Link to="/Registrate">
+        <Link to="/Login">
           <FontAwesomeIcon icon={faSignInAlt} />
         </Link>
         <Link to="/Registrate">
