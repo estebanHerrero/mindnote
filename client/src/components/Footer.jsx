@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer className="bg-[#F5F5F5] text-[#333333] font-sans h-80">
+    <footer className="bg-[#F5F5F5] text-[#333333] font-sans h-80 pt-32">
       <div className="container mx-auto py-8 px-4">
         <div className="flex flex-col md:flex-row justify-between">
           <div className="md:mb-0 text-center">
@@ -24,7 +24,7 @@ function Footer() {
           </div>
         </div>
         <div>
-          <p className='text-[#313131] text-sm mt-12 font-sans'>By ndev | Derechos reservados</p>
+          <p className='text-[#313131] text-sm  font-sans'>By ndev | Derechos reservados</p>
         </div>
       </div>
     </footer>

@@ -1,6 +1,8 @@
 import Beneficios from '../components/Beneficios.jsx';
 import ByeChelloP from '../components/ByeChelloP.jsx';
 import Nuestrapp from '../components/Nuestrapp.jsx';
+import { Link } from 'react-router-dom';
+import Testimonios from '../Testimonios.jsx';
 
 
 function Inicio()  {
@@ -9,7 +11,9 @@ function Inicio()  {
         <div className="grid grid-cols-2 row-span-2 pt-32 h-screen">
             <div className="h-screen justify-center items-center">
                 <h1 className="text-5xl mt-20 font-sans font-thin tracking-wider text-[#313131]">Disfrutá tu experiencia académica que nosotros te la organizamos.</h1>
-                <button className="bg-[#313131] text-white tracking-wide font-sans font-medium py-3 px-5 rounded-2xl mt-20 text-3xl">Registrate</button>
+                <Link to='Registrate'>
+                    <button className="bg-[#313131] text-white tracking-wide font-sans font-medium py-3 px-5 rounded-2xl mt-20 text-3xl hover:bg-[#212121]">Registrate</button>
+                </Link>
             </div>
             <div className="grid grid-cols-2 gap-4 h-[600px]">
                 <div className="grid grid-cols-1 gap-4">
@@ -26,6 +30,7 @@ function Inicio()  {
         </div>
         <ByeChelloP />
         <Beneficios />
+        <Testimonios />
         <Nuestrapp />
     </div>
 )}
