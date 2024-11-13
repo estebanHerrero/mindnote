@@ -27,7 +27,7 @@ function Registrate() {
                         placeholder="Ingrese su contraseña" />
                     </div>
                     <div className="flex justify-end">
-                        <button className="bg-[#313131] text-white tracking-wide font-sans font-medium py-3 px-5 rounded-2xl text-lg hover:bg-[#212121]">Registrate</button>
+                        <button className="text-[#313131] border border-[#313131] hover:border-0 tracking-wide font-sans font-medium py-3 px-5 rounded-2xl text-lg hover:bg-[#559933]">Registrate</button>
                     </div>
                 </form>
             </div>

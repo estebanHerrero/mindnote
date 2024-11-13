@@ -15,10 +15,10 @@ function Footer() {
             <div className='text-right'>
               <h3 className="text-lg font-semibold font-sans pb-4">Enlaces rápidos</h3>
               <ul>
-                <li className='pb-2'><Link to='/Institucional' className='font-light hover:text-[#16325B] hover:font-normal'>Perfil</Link></li>
-                <li className='pb-2'><Link to='/Reclamos' className='font-light hover:text-[#16325B] hover:font-normal'>Cursos</Link></li>
-                <li className='pb-2'><Link to='/Contacto' className='font-light hover:text-[#16325B] hover:font-normal'>Carreras</Link></li>
-                <li className='pb-2'><Link to='/Contacto' className='font-light hover:text-[#16325B] hover:font-normal'>Posgrados</Link></li>
+                <li className='pb-2'><Link to='/Institucional' className='font-light hover:text-[#559933] hover:font-normal'>Perfil</Link></li>
+                <li className='pb-2'><Link to='/Reclamos' className='font-light hover:text-[#559933] hover:font-normal'>Cursos</Link></li>
+                <li className='pb-2'><Link to='/Contacto' className='font-light hover:text-[#559933] hover:font-normal'>Carreras</Link></li>
+                <li className='pb-2'><Link to='/Contacto' className='font-light hover:text-[#559933] hover:font-normal'>Posgrados</Link></li>
               </ul>
             </div>
           </div>
