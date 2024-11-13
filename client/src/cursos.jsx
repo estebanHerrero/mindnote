@@ -2,8 +2,8 @@
 
 function Cursos() {
     return (
-        <div>
-            <h1>asdkaskdlñsdksñkl</h1>
+        <div className="bg-red-500 h-screen w-full">
+            <h1>Y cual fue</h1>
         </div>
     );
 }
