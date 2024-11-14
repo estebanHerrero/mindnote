@@ -18,7 +18,7 @@ function Login() {
                         placeholder="Ingrese su contraseña" />
                     </div>
                     <div className="flex justify-end">
-                        <Link to='Cursos'>
+                        <Link to='/Cursos'>
                             <button className="text-[#313131] border border-[#313131] hover:border-0 tracking-wide font-sans font-medium py-3 px-5 rounded-2xl text-lg hover:bg-[#559933]">Enviar</button>
                         </Link>
                     </div>
