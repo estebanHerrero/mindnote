@@ -5,7 +5,8 @@ import Footer from './components/Footer';
 import Inicio from './pages/inicio';
 import Login from './Login';
 import Registrate from './Registrate';
-import Cursos from './cursos';
+import Cursos from './Cursos';
+
 
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/Login" element={<Login />} />
+         <Route path="/Cursos" element={<Cursos />} />
         <Route path="/Registrate" element={<Registrate />} />
-        <Route path="/Cursos" element={<Cursos />} />
       </Routes>
       <Footer />
     </Router>

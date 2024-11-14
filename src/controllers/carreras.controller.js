@@ -1,4 +1,4 @@
-import {pool} from '../db.js';
+import { pool } from '../database/conexion.js';
 
 export const getCarreras = async (req, res) => {
     const [rows] = await pool.query('SELECT * from carreras')
